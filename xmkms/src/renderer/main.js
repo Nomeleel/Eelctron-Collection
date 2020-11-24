@@ -18,5 +18,6 @@ new Vue({
   components: { App },
   router,
   store,
+  vuetify: new Vuetify(),
   template: '<App/>'
 }).$mount('#app')
